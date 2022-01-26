@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jeonju.jeonjulifeup">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android:permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jeonjulogo"
+        android:label="전주라이프"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCdCCYvdZm2qhi_t2txunEUI9HOJhjRLx0" />
+
+        <activity
+            android:name="com.jeonju.jeonjulifeup.MainActivity"
+            android:label="전주라이프업"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.jeonju.jeonjulifeup.Medical_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Location_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Information_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Corona_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Child_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Handicapp_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ToiletCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ToiletInformationActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name=".EduProCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.EduProInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.LibraryCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.LibraryInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ForgotCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ForgotInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ParkCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ParkInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name=".PhysicalCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.PhysicalInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ServiceCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.TraditionalCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.TraditionalInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.WheelChairCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.WheelChairInformation"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Women_Famliy_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Old_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.MapsToiletActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.MapsLibraryActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.MapsParkActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.MapsWheelChairActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.MapsTraditionalActivity"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.ForeverEduCategoryClick"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Office_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Teacher_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Circle_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Education_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Document_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.News_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Agency_Internet"
+            android:screenOrientation="unspecified"/>
+        <activity android:name="com.jeonju.jeonjulifeup.Announcement_Internet"
+            android:screenOrientation="unspecified"/>
+    </application>
+</manifest>
