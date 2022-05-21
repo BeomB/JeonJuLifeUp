@@ -3,7 +3,7 @@
 [**Github**](https://github.com/beombeom1119/JeonJuLifeUp)
 
 [GitHub - beombeom1119/JeonJuLifeUp](https://github.com/beombeom1119/JeonJuLifeUp)
-
+ 
 <aside>
 💡 전주시 공공데이터 공모전 출품작입니다. Android Studio를 이용한 앱 프로젝트이며, 공공데이터 포털을 이용하여 DB를 생성하였고, 내장 DB와 Google Map Api 를 통해 전주 시민에게 다양한 정보를 제공하는 프로젝트입니다.
 
